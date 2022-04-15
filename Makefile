@@ -19,3 +19,7 @@ install: output
 	install -m 0755 dwmblocks_input $(DESTDIR)$(PREFIX)/bin/dwmblocks_input
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks
+	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks_battery
+	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks_volume
+	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks_net
+	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks_input
