@@ -29,7 +29,7 @@ case $BAT in
     Discharging10[0-9]) # 100-109%
         MESSAGE=" $CAP%"
         ;;
-    Full)
+    Full*)
         MESSAGE=" $CAP%"
         ;;
 esac
