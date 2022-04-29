@@ -1,9 +1,8 @@
 #!/bin/bash
 
 send_notification() {
-        notify-send c d;
     if [ ! -f "$HOME/.cache/batalert" ]; then
-        notify-send Battery Low!;
+        notify-send "Battery Low!";
         touch ~/.cache/batalert;
     fi;
 }
